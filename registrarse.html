@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrarse</title>
+    <link rel="stylesheet" href="style registrarse.css">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="registrarse.js"></script>
+    <div id="login">
+            <h5>Bienvenido a nuestra comunidad</h5>
+        <form action="" id="formulario" onsubmit="return validarFormulario()">
+            <h3>nombre</h3>
+            <input class="controls" type="text" name="nombre" value="" id="nombre">
+            <div id="errornom"></div>
+            <h3>correo electronico</h3>
+        <input class="controls" type="text" name="correo electronico" value="" id="correo" >
+        <div id="errorcorreo"></div>
+        <h3>contraseña</h3>
+        <input class="controls" type="password" name="contraseña" value="" id="pass">
+        <div id="errorpass"></div>
+        <h3>confirmar contraseña</h3>
+        <input class="controls" type="password" name="confirmar contraseña" value="" id="conpass" >
+        <div id="errorconpass"></div>
+
+        <button class="acceder"  type="submit" name="acceder" placeholder="iniciar sesion">registrarse</button>
+        </form>
+    
+        <div id="recuperacion">
+            <a href="inicio sesion.html">¿ya tienes una cuenta?</a>
+        </div>
+        <div id="logo">
+            <a href="index.html"><img src="logo.png" width="150"></a>
+            <h3>Isebel </h3>
+        </div>
+        
+</body>
+</html>
